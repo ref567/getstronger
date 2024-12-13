@@ -1,0 +1,151 @@
+/* General styles */
+body {
+    font-family: cursive, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2;
+    background-color: #eef2f6;
+    color: #47556c3b;
+
+}
+
+p {
+    color: #333;  /* Dark gray text color */
+    font-size: 16px;  /* Font size for readability */
+    line-height: 1.5;  /* Line height for better spacing */
+    font-family: "fantasy";  /* Font family */
+}
+
+    h1{
+    font-family: 'Georgia', serif; /* Georgia font for section titles */
+    font-size: 1.6em; /* Slightly smaller than main heading */
+    font-weight: normal; /* Regular weight for section headings */
+    color: #34495e; 
+    text-decoration: underline;
+}
+
+h2{
+    font-family: 'Georgia', serif; /* Georgia font for section titles */
+    font-size: 1.6em; /* Slightly smaller than main heading */
+    font-weight: normal; /* Regular weight for section headings */
+    color: #34495e; /* Slightly lighter gray for contrast */
+    text-decoration: underline;
+}
+
+/* Styling for h3 elements */
+h3 {
+    color: #e74c3c;  /* Red color for h3 */
+}
+
+/* Styling for unordered lists within h3 */
+h3 ul {
+    list-style-type: disc;  /* Style for list items */
+    margin-left: 20px;  /* Indentation to make the list inside h3 look nested */
+    color: #34495e;  /* Text color for list items */
+}
+
+h3 ul li {
+    font-size: 14px;  /* Smaller font size for list items */
+    line-height: 1.4;  /* Line height for better spacing */
+    color: #34495e;
+}
+
+#workouts ul li {
+    color: #2c3e50;  /* Set the text color for list items */
+    font-size: 16px;  /* Increase font size for better readability */
+    line-height: 1.5;  /* Add space between lines for readability */
+    margin-bottom: 10px;  /* Add space between each list item */
+    font-weight: bold;  /* Make the text bold for emphasis */
+}
+
+#workouts ul li strong {
+    color: #e74c3c;  /* Set a different color for the bold text */
+}
+
+
+
+/* Header styles */
+header {
+    background-color: #eef2f6;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    background-color: #34495e;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: normal;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b5bec8;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #34495e;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+h1, h2, h3 {
+    color: #34495e;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #c1c6cb;
+    color: #34495e;
+    padding: 10px 0;
+    margin-top: 20px;
+}
